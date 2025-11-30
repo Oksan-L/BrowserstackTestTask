@@ -2,8 +2,8 @@ import HomePage from '../pages/home.page.js';
 import FormsPage from '../pages/forms.page.js';
 import { randomText } from '../utils/generators.js';
 
-describe('Forms Screen Tests', () => {
-    it('Should fill form, select dropdown, toggle switch and submit', async () => {
+describe('Forms Screen', () => {
+    it('should fill form, select dropdown, toggle switch and submit', async () => {
 
         await HomePage.openForms();
         await expect(FormsPage.inputField).toBeDisplayed();

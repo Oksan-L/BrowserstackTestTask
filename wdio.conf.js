@@ -40,8 +40,8 @@ exports.config = {
       "appium:automationName": "UiAutomator2",
       "appium:app": "D:\\Oksana\\Work\\0-LuxeQuality\\BrowserstackTestTask\\Android-NativeDemoApp-0.4.0.apk",
 
-      "appium:noReset": true,
-      "appium:fullReset": false,
+      "appium:noReset": false,
+      "appium:fullReset": true,
 
       "appium:appWaitPackage": "com.wdiodemoapp",
       "appium:appWaitActivity": "com.wdiodemoapp.SplashActivity,com.wdiodemoapp.MainActivity",
@@ -51,6 +51,14 @@ exports.config = {
       maxInstances: 1
   }],
 
+  reporters: [
+    'spec',
+    ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: false,
+        disableWebdriverScreenshotsReporting: false,
+    }]
+],
   
     logLevel: 'info',
     coloredLogs: true,
