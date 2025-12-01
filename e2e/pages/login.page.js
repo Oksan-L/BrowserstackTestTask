@@ -29,7 +29,6 @@ class LoginPage {
         return $('android=new UiSelector().resourceId("android:id/message")'); 
     }
 
-    // Кнопка "OK" в попапі
     get successOkBtn() { 
         return $('android=new UiSelector().resourceId("android:id/button1")'); 
     }
@@ -69,7 +68,6 @@ class LoginPage {
         return await this.successMessage.getText();
     }
 
-    // Метод для закриття попапу
     async closeSuccessPopup() {
         await this.successOkBtn.click();
     }

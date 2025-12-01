@@ -31,6 +31,10 @@ class FormsPage {
         return $('~Dropdown').$('android.widget.EditText');
     }
 
+    get switchState() {
+        return this.switchButton.getAttribute('checked');
+    }
+
     async enterText(text) {
         await this.inputField.waitForDisplayed();
         await this.inputField.clearValue();

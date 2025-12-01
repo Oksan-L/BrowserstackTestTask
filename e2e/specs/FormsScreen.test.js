@@ -3,8 +3,7 @@ import FormsPage from '../pages/forms.page.js';
 import { randomText } from '../utils/generators.js';
 
 describe('Forms Screen', () => {
-    it('should fill form, select dropdown, toggle switch and submit', async () => {
-
+    it('001 - should fill form, select dropdown, toggle switch and submit', async () => {
         await HomePage.openForms();
         await expect(FormsPage.inputField).toBeDisplayed();
 
@@ -32,5 +31,21 @@ describe('Forms Screen', () => {
         await FormsPage.closePopup();
         await expect(FormsPage.popup).not.toBeDisplayed();
     });
-});
 
+    it('004 - Switch negative test', async () => {
+        await HomePage.openForms();
+        await expect(FormsPage.inputField).toBeDisplayed();
+
+        // Get initial state of the switch
+        const initialState = await FormsPage.switchState;
+
+        // Toggle the switch and verify the state has changed
+        await FormsPage.tapSwitch();
+        await expect(await FormsPage.switchState).not.toEqual(initialState);
+
+        // Toggle the switch back and verify it returns to the initial state
+        await FormsPage.tapSwitch();
+        await expect(await FormsPage.switchState).toEqual(initialState);
+    });
+
+});

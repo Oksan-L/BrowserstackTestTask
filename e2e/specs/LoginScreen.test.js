@@ -1,8 +1,8 @@
 import LoginPage from '../pages/login.page.js';
 
-describe('002 - Login empty text', () => {
+describe('Login Screen', () => {
 
-    it('should show warnings when username and password fields are empty', async () => {
+    it('002 - should show warnings when username and password fields are empty', async () => {
 
         // Navigate to login
         await LoginPage.openLogin();
@@ -22,7 +22,7 @@ describe('002 - Login empty text', () => {
         await expect(LoginPage.passwordWarning).toBeDisplayed();
     });
 
-    it('should accept username and password within allowed length range', async () => {
+    it('003 - should accept username and password within allowed length range', async () => {
 
         // Navigate to login
         if (!(await LoginPage.isLoginScreenDisplayed())) {
