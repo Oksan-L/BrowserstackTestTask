@@ -1,9 +1,14 @@
 exports.config = {
-    services: ['appium'],
+    
+    // --- for local testing ---
+    // services: ['appium'],
+    // hostname: 'localhost',
+    // port: 4723,
+    // path: '/wd/hub',
 
-    hostname: 'localhost',
-    port: 4723,
-    path: '/wd/hub',
+    services: ['browserstack'],
+    user: process.env.BROWSERSTACK_USERNAME,
+    key: process.env.BROWSERSTACK_ACCESS_KEY,
 
     updateJob: false,
     specs: [

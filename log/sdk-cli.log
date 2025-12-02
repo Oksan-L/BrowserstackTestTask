@@ -1,0 +1,1148 @@
+2025-12-02T22:53:22.760Z CLI info [main]     Server listening on port: 5400
+2025-12-02T22:53:22.780Z CLI info     Config : {"platforms":[{"platformName":"Android","appium:platformVersion":"13.0","appium:deviceName":"Google Pixel 7 Pro","appium:automationName":"UiAutomator2","appium:noReset":false,"appium:fullReset":true,"appium:appWaitPackage":"com.wdiodemoapp","appium:appWaitActivity":"com.wdiodemoapp.SplashActivity,com.wdiodemoapp.MainActivity"}],"isNonBstackA11yWDIO":true,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2025-12-02T23:01:36.132Z CLI info [main]     Server listening on port: 5400
+2025-12-02T23:01:36.151Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:platformVersion":"13.0","appium:deviceName":"Google Pixel 7 Pro","appium:automationName":"UiAutomator2","appium:app":"bs://1f5b8edd4b4bda9823005b34018602da0c4736f1","appium:noReset":false,"appium:fullReset":true,"appium:appWaitPackage":"com.wdiodemoapp","appium:appWaitActivity":"com.wdiodemoapp.SplashActivity,com.wdiodemoapp.MainActivity","wdioService":"9.20.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2025-12-02T23:01:36.215Z CLI info [testhub:module]  [sana_SMxl6V]   [5f83719a-150c-4a1b-af1c-8f9986582aab]  Starting testhub from 9868:0
+2025-12-02T23:01:36.216Z CLI info  [sana_SMxl6V]   [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-12-02T23:01:36.875Z CLI info [testhub:module]  [sana_SMxl6V]   [5f83719a-150c-4a1b-af1c-8f9986582aab]  startBuild: response=xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g
+2025-12-02T23:01:36.876Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-02T23:01:37.110Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-02T23:01:37.470Z CLI error [core:http]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Failed queued request: GET api/app_percy/get_project_token?type=app&percy=undefined Parameter name is required
+2025-12-02T23:01:37.470Z CLI error [percy:percy]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Percy unable to fetch project token: [object Object]
+2025-12-02T23:01:37.470Z CLI error  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  error invoking callback for eventName: {}
+2025-12-02T23:01:37.470Z CLI error  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-12-02T23:01:37.471Z CLI info [appautomate:service]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Using app: bs://1f5b8edd4b4bda9823005b34018602da0c4736f1
+2025-12-02T23:01:38.526Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-12-02T23:01:38.789Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-12-02T23:01:38.985Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-12-02T23:01:38.998Z CLI info [sdk:service]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Driver initialized as primary driver: platformIndex=0
+2025-12-02T23:01:39.001Z CLI info [sdk:service]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Driver initialized as primary driver: platformIndex=0
+2025-12-02T23:01:39.002Z CLI info [sdk:service]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Driver initialized as primary driver: platformIndex=0
+2025-12-02T23:01:39.633Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-12-02T23:01:52.620Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'd99541d4-f95b-48c8-a044-5cc68d1a9733',
+    integrations: { browserstack: [Object] }
+  }
+} to 9868:0
+2025-12-02T23:01:52.621Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'd99541d4-f95b-48c8-a044-5cc68d1a9733',
+    name: '001 - should fill form, select dropdown, toggle switch and submit',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        await HomePage.openForms();\r\n' +
+        '        await expect(FormsPage.inputField).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '        const text = randomText();\r\n' +
+        '        await FormsPage.enterText(text);\r\n' +
+        '        await expect(FormsPage.inputField).toHaveText(text);\r\n' +
+        '\r\n' +
+        "        const currentState = await FormsPage.switchButton.getAttribute('checked');\r\n" +
+        '        await FormsPage.tapSwitch();\r\n' +
+        '\r\n' +
+        "        const newState = await FormsPage.switchButton.getAttribute('checked');\r\n" +
+        "        expect(newState).toBe(currentState === 'true' ? 'false' : 'true');\r\n" +
+        '        \r\n' +
+        '        await FormsPage.openDropdown();\r\n' +
+        '        await FormsPage.selectDropdownOption();\r\n' +
+        '\r\n' +
+        '        const selectedText = await FormsPage.getSelectedDropdownText();\r\n' +
+        '        await expect(selectedText).toBe("Appium is awesome");\r\n' +
+        '\r\n' +
+        '        await FormsPage.submit();\r\n' +
+        '        await FormsPage.popup.waitForDisplayed({ timeout: 5000 });\r\n' +
+        '        await expect(FormsPage.popup).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '\r\n' +
+        '        await FormsPage.closePopup();\r\n' +
+        '        await expect(FormsPage.popup).not.toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: '001 - should fill form, select dropdown, toggle switch and submit',
+    scope: 'Forms Screen - 001 - should fill form, select dropdown, toggle switch and submit',
+    scopes: [ 'Forms Screen' ],
+    file_name: 'e2e\\specs\\FormsScreen.test.js',
+    vc_filepath: 'e2e\\specs\\FormsScreen.test.js',
+    location: 'e2e\\specs\\FormsScreen.test.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-02T23:01:52.607Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:01:52.933Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'd99541d4-f95b-48c8-a044-5cc68d1a9733',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'd99541d4-f95b-48c8-a044-5cc68d1a9733',
+      name: '001 - should fill form, select dropdown, toggle switch and submit',
+      body: [Object],
+      identifier: '001 - should fill form, select dropdown, toggle switch and submit',
+      scope: 'Forms Screen - 001 - should fill form, select dropdown, toggle switch and submit',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\FormsScreen.test.js',
+      vc_filepath: 'e2e\\specs\\FormsScreen.test.js',
+      location: 'e2e\\specs\\FormsScreen.test.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-02T23:01:52.607Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 9868:0
+2025-12-02T23:01:52.934Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-02T23:01:53.522Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '57879f06-587a-4b72-8272-7fd6a02fe079',
+    integrations: { browserstack: [Object] }
+  }
+} to 9868:0
+2025-12-02T23:01:53.523Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '57879f06-587a-4b72-8272-7fd6a02fe079',
+    name: '005 - swipe gesture verification via carousel buttons',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        const swipeButton = await $('~Swipe');\r\n" +
+        '        await swipeButton.waitForDisplayed({ timeout: 5000 });\r\n' +
+        '        await swipeButton.click();\r\n' +
+        '        await SwipePage.swipeScreen.waitForDisplayed({ timeout: 5000 });\r\n' +
+        '        await expect(SwipePage.swipeScreen).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '        // Save the text of the first slide\r\n' +
+        '        const textBefore = await SwipePage.currentSlideText.getText();\r\n' +
+        '\r\n' +
+        '        // Click to the second slide\r\n' +
+        '        await SwipePage.clickCarouselButton(1);\r\n' +
+        '        await browser.pause(2000);\r\n' +
+        '\r\n' +
+        '        // Verify that the slide text has changed\r\n' +
+        '        const textAfter = await SwipePage.currentSlideText2.getText();\r\n' +
+        '        await expect(textAfter).not.toEqual(textBefore);\r\n' +
+        '\r\n' +
+        '        // Return to the first slide\r\n' +
+        '        await SwipePage.clickCarouselButton(0);\r\n' +
+        '        await browser.pause(2000);\r\n' +
+        '\r\n' +
+        '        // Check that we are back to the original slide\r\n' +
+        '        const textBack = await SwipePage.currentSlideText.getText();\r\n' +
+        '        await expect(textBack).toEqual(textBefore);\r\n' +
+        '    }'
+    },
+    identifier: '005 - swipe gesture verification via carousel buttons',
+    scope: 'Swipe Screen - 005 - swipe gesture verification via carousel buttons',
+    scopes: [ 'Swipe Screen' ],
+    file_name: 'e2e\\specs\\SwipeScreen.test.js',
+    vc_filepath: 'e2e\\specs\\SwipeScreen.test.js',
+    location: 'e2e\\specs\\SwipeScreen.test.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-02T23:01:53.513Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:01:54.937Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '57879f06-587a-4b72-8272-7fd6a02fe079',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '57879f06-587a-4b72-8272-7fd6a02fe079',
+      name: '005 - swipe gesture verification via carousel buttons',
+      body: [Object],
+      identifier: '005 - swipe gesture verification via carousel buttons',
+      scope: 'Swipe Screen - 005 - swipe gesture verification via carousel buttons',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\SwipeScreen.test.js',
+      vc_filepath: 'e2e\\specs\\SwipeScreen.test.js',
+      location: 'e2e\\specs\\SwipeScreen.test.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-02T23:01:53.513Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 9868:0
+2025-12-02T23:01:54.937Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-02T23:01:57.173Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '3ad7ca7c-99c6-455c-8340-3e0bf5b1e679',
+    integrations: { browserstack: [Object] }
+  }
+} to 9868:0
+2025-12-02T23:01:57.173Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '3ad7ca7c-99c6-455c-8340-3e0bf5b1e679',
+    name: '002 - should show warnings when username and password fields are empty',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '\r\n' +
+        '        // Navigate to login\r\n' +
+        '        await LoginPage.openLogin();\r\n' +
+        '        await expect(LoginPage.emailInput).toBeDisplayed();\r\n' +
+        '        await expect(LoginPage.passwordInput).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '        // Clear both fields\r\n' +
+        '        await LoginPage.clearFields();\r\n' +
+        "        await expect(LoginPage.emailInput).toHaveText('Email');\r\n" +
+        "        await expect(LoginPage.passwordInput).toHaveText('Password');\r\n" +
+        '\r\n' +
+        '        // Tap Login\r\n' +
+        '        await LoginPage.tapLogin();\r\n' +
+        '\r\n' +
+        '        // Warnings appear\r\n' +
+        '        await expect(LoginPage.emailWarning).toBeDisplayed();\r\n' +
+        '        await expect(LoginPage.passwordWarning).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: '002 - should show warnings when username and password fields are empty',
+    scope: 'Login Screen - 002 - should show warnings when username and password fields are empty',
+    scopes: [ 'Login Screen' ],
+    file_name: 'e2e\\specs\\LoginScreen.test.js',
+    vc_filepath: 'e2e\\specs\\LoginScreen.test.js',
+    location: 'e2e\\specs\\LoginScreen.test.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-02T23:01:57.165Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:01:58.951Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '3ad7ca7c-99c6-455c-8340-3e0bf5b1e679',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '3ad7ca7c-99c6-455c-8340-3e0bf5b1e679',
+      name: '002 - should show warnings when username and password fields are empty',
+      body: [Object],
+      identifier: '002 - should show warnings when username and password fields are empty',
+      scope: 'Login Screen - 002 - should show warnings when username and password fields are empty',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\LoginScreen.test.js',
+      vc_filepath: 'e2e\\specs\\LoginScreen.test.js',
+      location: 'e2e\\specs\\LoginScreen.test.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-02T23:01:57.165Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 9868:0
+2025-12-02T23:01:58.952Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-02T23:02:02.832Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"57879f06-587a-4b72-8272-7fd6a02fe079","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Swipe Screen - 005 - swipe gesture verification via carousel buttons","test_name":"005 - swipe gesture verification via carousel buttons","test_code":"async () => {\r\n        const swipeButton = await $('~Swipe');\r\n        await swipeButton.waitForDisplayed({ timeout: 5000 });\r\n        await swipeButton.click();\r\n        await SwipePage.swipeScreen.waitForDisplayed({ timeout: 5000 });\r\n        await expect(SwipePage.swipeScreen).toBeDisplayed();\r\n\r\n        // Save the text of the first slide\r\n        const textBefore = await SwipePage.currentSlideText.getText();\r\n\r\n        // Click to the second slide\r\n        await SwipePage.clickCarouselButton(1);\r\n        await browser.pause(2000);\r\n\r\n        // Verify that the slide text has changed\r\n        const textAfter = await SwipePage.currentSlideText2.getText();\r\n        await expect(textAfter).not.toEqual(textBefore);\r\n\r\n        // Return to the first slide\r\n        await SwipePage.clickCarouselButton(0);\r\n        await browser.pause(2000);\r\n\r\n        // Check that we are back to the original slide\r\n        const textBack = await SwipePage.currentSlideText.getText();\r\n        await expect(textBack).toEqual(textBefore);\r\n    }","test_file_path":"e2e\\specs\\SwipeScreen.test.js","test_location":"e2e\\specs\\SwipeScreen.test.js","test_scope":"Swipe Screen - 005 - swipe gesture verification via carousel buttons","test_scopes":["Swipe Screen"],"test_started_at":"2025-12-02T23:01:53.513Z","automate_session_name":"Swipe Screen - 005 - swipe gesture verification via carousel buttons","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2025-12-02T23:02:02.829Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2025-12-02T23:02:02.832Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '57879f06-587a-4b72-8272-7fd6a02fe079',
+    name: '005 - swipe gesture verification via carousel buttons',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        "        const swipeButton = await $('~Swipe');\r\n" +
+        '        await swipeButton.waitForDisplayed({ timeout: 5000 });\r\n' +
+        '        await swipeButton.click();\r\n' +
+        '        await SwipePage.swipeScreen.waitForDisplayed({ timeout: 5000 });\r\n' +
+        '        await expect(SwipePage.swipeScreen).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '        // Save the text of the first slide\r\n' +
+        '        const textBefore = await SwipePage.currentSlideText.getText();\r\n' +
+        '\r\n' +
+        '        // Click to the second slide\r\n' +
+        '        await SwipePage.clickCarouselButton(1);\r\n' +
+        '        await browser.pause(2000);\r\n' +
+        '\r\n' +
+        '        // Verify that the slide text has changed\r\n' +
+        '        const textAfter = await SwipePage.currentSlideText2.getText();\r\n' +
+        '        await expect(textAfter).not.toEqual(textBefore);\r\n' +
+        '\r\n' +
+        '        // Return to the first slide\r\n' +
+        '        await SwipePage.clickCarouselButton(0);\r\n' +
+        '        await browser.pause(2000);\r\n' +
+        '\r\n' +
+        '        // Check that we are back to the original slide\r\n' +
+        '        const textBack = await SwipePage.currentSlideText.getText();\r\n' +
+        '        await expect(textBack).toEqual(textBefore);\r\n' +
+        '    }'
+    },
+    identifier: '005 - swipe gesture verification via carousel buttons',
+    scope: 'Swipe Screen - 005 - swipe gesture verification via carousel buttons',
+    scopes: [ 'Swipe Screen' ],
+    file_name: 'e2e\\specs\\SwipeScreen.test.js',
+    vc_filepath: 'e2e\\specs\\SwipeScreen.test.js',
+    location: 'e2e\\specs\\SwipeScreen.test.js',
+    result: 'passed',
+    duration_in_ms: 9316,
+    started_at: '2025-12-02T23:01:53.513Z',
+    finished_at: '2025-12-02T23:02:02.829Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:02:02.965Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '57879f06-587a-4b72-8272-7fd6a02fe079',
+      name: '005 - swipe gesture verification via carousel buttons',
+      body: [Object],
+      identifier: '005 - swipe gesture verification via carousel buttons',
+      scope: 'Swipe Screen - 005 - swipe gesture verification via carousel buttons',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\SwipeScreen.test.js',
+      vc_filepath: 'e2e\\specs\\SwipeScreen.test.js',
+      location: 'e2e\\specs\\SwipeScreen.test.js',
+      result: 'passed',
+      duration_in_ms: 9316,
+      started_at: '2025-12-02T23:01:53.513Z',
+      finished_at: '2025-12-02T23:02:02.829Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 9868:0
+2025-12-02T23:02:02.966Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-02T23:02:03.595Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"3ad7ca7c-99c6-455c-8340-3e0bf5b1e679","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Login Screen - 002 - should show warnings when username and password fields are empty","test_name":"002 - should show warnings when username and password fields are empty","test_code":"async () => {\r\n\r\n        // Navigate to login\r\n        await LoginPage.openLogin();\r\n        await expect(LoginPage.emailInput).toBeDisplayed();\r\n        await expect(LoginPage.passwordInput).toBeDisplayed();\r\n\r\n        // Clear both fields\r\n        await LoginPage.clearFields();\r\n        await expect(LoginPage.emailInput).toHaveText('Email');\r\n        await expect(LoginPage.passwordInput).toHaveText('Password');\r\n\r\n        // Tap Login\r\n        await LoginPage.tapLogin();\r\n\r\n        // Warnings appear\r\n        await expect(LoginPage.emailWarning).toBeDisplayed();\r\n        await expect(LoginPage.passwordWarning).toBeDisplayed();\r\n    }","test_file_path":"e2e\\specs\\LoginScreen.test.js","test_location":"e2e\\specs\\LoginScreen.test.js","test_scope":"Login Screen - 002 - should show warnings when username and password fields are empty","test_scopes":["Login Screen"],"test_started_at":"2025-12-02T23:01:57.165Z","automate_session_name":"Login Screen - 002 - should show warnings when username and password fields are empty","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2025-12-02T23:02:03.592Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2025-12-02T23:02:03.595Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '3ad7ca7c-99c6-455c-8340-3e0bf5b1e679',
+    name: '002 - should show warnings when username and password fields are empty',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '\r\n' +
+        '        // Navigate to login\r\n' +
+        '        await LoginPage.openLogin();\r\n' +
+        '        await expect(LoginPage.emailInput).toBeDisplayed();\r\n' +
+        '        await expect(LoginPage.passwordInput).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '        // Clear both fields\r\n' +
+        '        await LoginPage.clearFields();\r\n' +
+        "        await expect(LoginPage.emailInput).toHaveText('Email');\r\n" +
+        "        await expect(LoginPage.passwordInput).toHaveText('Password');\r\n" +
+        '\r\n' +
+        '        // Tap Login\r\n' +
+        '        await LoginPage.tapLogin();\r\n' +
+        '\r\n' +
+        '        // Warnings appear\r\n' +
+        '        await expect(LoginPage.emailWarning).toBeDisplayed();\r\n' +
+        '        await expect(LoginPage.passwordWarning).toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: '002 - should show warnings when username and password fields are empty',
+    scope: 'Login Screen - 002 - should show warnings when username and password fields are empty',
+    scopes: [ 'Login Screen' ],
+    file_name: 'e2e\\specs\\LoginScreen.test.js',
+    vc_filepath: 'e2e\\specs\\LoginScreen.test.js',
+    location: 'e2e\\specs\\LoginScreen.test.js',
+    result: 'passed',
+    duration_in_ms: 6427,
+    started_at: '2025-12-02T23:01:57.165Z',
+    finished_at: '2025-12-02T23:02:03.592Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:02:03.602Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+    integrations: { browserstack: [Object] }
+  }
+} to 9868:0
+2025-12-02T23:02:03.603Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+    name: '003 - should accept username and password within allowed length range',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '\r\n' +
+        '        // Navigate to login\r\n' +
+        '        if (!(await LoginPage.isLoginScreenDisplayed())) {\r\n' +
+        "            throw new Error('Login screen did NOT load correctly');\r\n" +
+        '        }\r\n' +
+        '\r\n' +
+        '        // Generate and enter random credentials\r\n' +
+        '        const { username, password } = await LoginPage.enterRandomCredentials();\r\n' +
+        '\r\n' +
+        "        console.log('Generated username:', username);\r\n" +
+        "        console.log('Generated password:', password);\r\n" +
+        '\r\n' +
+        '        await LoginPage.loginBtn.click();\r\n' +
+        '\r\n' +
+        '        // Verify fields are not empty\r\n' +
+        "        if ((await LoginPage.emailInput.getText()) === '') {\r\n" +
+        "            throw new Error('Username field is empty after entering random text');\r\n" +
+        '        }\r\n' +
+        "        if ((await LoginPage.passwordInput.getText()) === '') {\r\n" +
+        "            throw new Error('Password field is empty after entering random text');\r\n" +
+        '        }\r\n' +
+        '\r\n' +
+        '        // Verify lengths are within allowed ranges\r\n' +
+        '        if (username.length < 8 || username.length > 60) {\r\n' +
+        '            throw new Error(`Username length ${username.length} is out of allowed range`);\r\n' +
+        '        }\r\n' +
+        '        if (password.length < 8 || password.length > 50) {\r\n' +
+        '            throw new Error(`Password length ${password.length} is out of allowed range`);\r\n' +
+        '        }\r\n' +
+        '\r\n' +
+        '        // Wait for and verify success popup\r\n' +
+        '        const messageText = await LoginPage.waitForSuccessPopup();\r\n' +
+        "        if (messageText !== 'You are logged in!') {\r\n" +
+        '            throw new Error(`Success popup did NOT appear or text is incorrect: ${messageText}`);\r\n' +
+        '        }\r\n' +
+        '\r\n' +
+        '        // Close popup\r\n' +
+        '        await LoginPage.closeSuccessPopup();\r\n' +
+        '    }'
+    },
+    identifier: '003 - should accept username and password within allowed length range',
+    scope: 'Login Screen - 003 - should accept username and password within allowed length range',
+    scopes: [ 'Login Screen' ],
+    file_name: 'e2e\\specs\\LoginScreen.test.js',
+    vc_filepath: 'e2e\\specs\\LoginScreen.test.js',
+    location: 'e2e\\specs\\LoginScreen.test.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-02T23:02:03.598Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:02:04.976Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '3ad7ca7c-99c6-455c-8340-3e0bf5b1e679',
+      name: '002 - should show warnings when username and password fields are empty',
+      body: [Object],
+      identifier: '002 - should show warnings when username and password fields are empty',
+      scope: 'Login Screen - 002 - should show warnings when username and password fields are empty',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\LoginScreen.test.js',
+      vc_filepath: 'e2e\\specs\\LoginScreen.test.js',
+      location: 'e2e\\specs\\LoginScreen.test.js',
+      result: 'passed',
+      duration_in_ms: 6427,
+      started_at: '2025-12-02T23:01:57.165Z',
+      finished_at: '2025-12-02T23:02:03.592Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+      name: '003 - should accept username and password within allowed length range',
+      body: [Object],
+      identifier: '003 - should accept username and password within allowed length range',
+      scope: 'Login Screen - 003 - should accept username and password within allowed length range',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\LoginScreen.test.js',
+      vc_filepath: 'e2e\\specs\\LoginScreen.test.js',
+      location: 'e2e\\specs\\LoginScreen.test.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-02T23:02:03.598Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 9868:0
+2025-12-02T23:02:04.977Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-02T23:02:05.514Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"d99541d4-f95b-48c8-a044-5cc68d1a9733","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Forms Screen - 001 - should fill form, select dropdown, toggle switch and submit","test_name":"001 - should fill form, select dropdown, toggle switch and submit","test_code":"async () => {\r\n        await HomePage.openForms();\r\n        await expect(FormsPage.inputField).toBeDisplayed();\r\n\r\n        const text = randomText();\r\n        await FormsPage.enterText(text);\r\n        await expect(FormsPage.inputField).toHaveText(text);\r\n\r\n        const currentState = await FormsPage.switchButton.getAttribute('checked');\r\n        await FormsPage.tapSwitch();\r\n\r\n        const newState = await FormsPage.switchButton.getAttribute('checked');\r\n        expect(newState).toBe(currentState === 'true' ? 'false' : 'true');\r\n        \r\n        await FormsPage.openDropdown();\r\n        await FormsPage.selectDropdownOption();\r\n\r\n        const selectedText = await FormsPage.getSelectedDropdownText();\r\n        await expect(selectedText).toBe(\"Appium is awesome\");\r\n\r\n        await FormsPage.submit();\r\n        await FormsPage.popup.waitForDisplayed({ timeout: 5000 });\r\n        await expect(FormsPage.popup).toBeDisplayed();\r\n\r\n\r\n        await FormsPage.closePopup();\r\n        await expect(FormsPage.popup).not.toBeDisplayed();\r\n    }","test_file_path":"e2e\\specs\\FormsScreen.test.js","test_location":"e2e\\specs\\FormsScreen.test.js","test_scope":"Forms Screen - 001 - should fill form, select dropdown, toggle switch and submit","test_scopes":["Forms Screen"],"test_started_at":"2025-12-02T23:01:52.607Z","automate_session_name":"Forms Screen - 001 - should fill form, select dropdown, toggle switch and submit","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2025-12-02T23:02:05.511Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2025-12-02T23:02:05.515Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'd99541d4-f95b-48c8-a044-5cc68d1a9733',
+    name: '001 - should fill form, select dropdown, toggle switch and submit',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        await HomePage.openForms();\r\n' +
+        '        await expect(FormsPage.inputField).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '        const text = randomText();\r\n' +
+        '        await FormsPage.enterText(text);\r\n' +
+        '        await expect(FormsPage.inputField).toHaveText(text);\r\n' +
+        '\r\n' +
+        "        const currentState = await FormsPage.switchButton.getAttribute('checked');\r\n" +
+        '        await FormsPage.tapSwitch();\r\n' +
+        '\r\n' +
+        "        const newState = await FormsPage.switchButton.getAttribute('checked');\r\n" +
+        "        expect(newState).toBe(currentState === 'true' ? 'false' : 'true');\r\n" +
+        '        \r\n' +
+        '        await FormsPage.openDropdown();\r\n' +
+        '        await FormsPage.selectDropdownOption();\r\n' +
+        '\r\n' +
+        '        const selectedText = await FormsPage.getSelectedDropdownText();\r\n' +
+        '        await expect(selectedText).toBe("Appium is awesome");\r\n' +
+        '\r\n' +
+        '        await FormsPage.submit();\r\n' +
+        '        await FormsPage.popup.waitForDisplayed({ timeout: 5000 });\r\n' +
+        '        await expect(FormsPage.popup).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '\r\n' +
+        '        await FormsPage.closePopup();\r\n' +
+        '        await expect(FormsPage.popup).not.toBeDisplayed();\r\n' +
+        '    }'
+    },
+    identifier: '001 - should fill form, select dropdown, toggle switch and submit',
+    scope: 'Forms Screen - 001 - should fill form, select dropdown, toggle switch and submit',
+    scopes: [ 'Forms Screen' ],
+    file_name: 'e2e\\specs\\FormsScreen.test.js',
+    vc_filepath: 'e2e\\specs\\FormsScreen.test.js',
+    location: 'e2e\\specs\\FormsScreen.test.js',
+    result: 'passed',
+    duration_in_ms: 12904,
+    started_at: '2025-12-02T23:01:52.607Z',
+    finished_at: '2025-12-02T23:02:05.511Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:02:05.521Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '5ce5635f-7b17-4b6d-b493-ed61e81f7fee',
+    integrations: { browserstack: [Object] }
+  }
+} to 9868:0
+2025-12-02T23:02:05.522Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '5ce5635f-7b17-4b6d-b493-ed61e81f7fee',
+    name: '004 - switch negative test',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        await HomePage.openForms();\r\n' +
+        '        await expect(FormsPage.inputField).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '        // Get initial state of the switch\r\n' +
+        '        const initialState = await FormsPage.switchState;\r\n' +
+        '\r\n' +
+        '        // Toggle the switch and verify the state has changed\r\n' +
+        '        await FormsPage.tapSwitch();\r\n' +
+        '        await expect(await FormsPage.switchState).not.toEqual(initialState);\r\n' +
+        '\r\n' +
+        '        // Toggle the switch back and verify it returns to the initial state\r\n' +
+        '        await FormsPage.tapSwitch();\r\n' +
+        '        await expect(await FormsPage.switchState).toEqual(initialState);\r\n' +
+        '    }'
+    },
+    identifier: '004 - switch negative test',
+    scope: 'Forms Screen - 004 - switch negative test',
+    scopes: [ 'Forms Screen' ],
+    file_name: 'e2e\\specs\\FormsScreen.test.js',
+    vc_filepath: 'e2e\\specs\\FormsScreen.test.js',
+    location: 'e2e\\specs\\FormsScreen.test.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-02T23:02:05.517Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:02:06.502Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.20.1',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-02T23:02:06.486Z',
+      uuid: '57879f06-587a-4b72-8272-7fd6a02fe079',
+      kind: 'TEST_LOG',
+      message: '"could not handle step stop message: no step is running"',
+      level: 'ERROR',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: '57879f06-587a-4b72-8272-7fd6a02fe079'
+    }
+  ]
+} to 9868:0
+2025-12-02T23:02:06.907Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.20.1',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-02T23:02:06.903Z',
+      uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+      kind: 'TEST_LOG',
+      message: '"Generated username:, sthHAImWvuOMc492WorDHlnJNbwXI4I0JM6yd13UF@gmail.com"',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3'
+    },
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.20.1',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-02T23:02:06.903Z',
+      uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+      kind: 'TEST_LOG',
+      message: '"Generated password:, ALB1RDTown0K5dISopzv21c21aqZRhdly0fpq6zD7tGei"',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3'
+    }
+  ]
+} to 9868:0
+2025-12-02T23:02:06.986Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'd99541d4-f95b-48c8-a044-5cc68d1a9733',
+      name: '001 - should fill form, select dropdown, toggle switch and submit',
+      body: [Object],
+      identifier: '001 - should fill form, select dropdown, toggle switch and submit',
+      scope: 'Forms Screen - 001 - should fill form, select dropdown, toggle switch and submit',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\FormsScreen.test.js',
+      vc_filepath: 'e2e\\specs\\FormsScreen.test.js',
+      location: 'e2e\\specs\\FormsScreen.test.js',
+      result: 'passed',
+      duration_in_ms: 12904,
+      started_at: '2025-12-02T23:01:52.607Z',
+      finished_at: '2025-12-02T23:02:05.511Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '5ce5635f-7b17-4b6d-b493-ed61e81f7fee',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '5ce5635f-7b17-4b6d-b493-ed61e81f7fee',
+      name: '004 - switch negative test',
+      body: [Object],
+      identifier: '004 - switch negative test',
+      scope: 'Forms Screen - 004 - switch negative test',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\FormsScreen.test.js',
+      vc_filepath: 'e2e\\specs\\FormsScreen.test.js',
+      location: 'e2e\\specs\\FormsScreen.test.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-02T23:02:05.517Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 9868:0
+2025-12-02T23:02:06.987Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-02T23:02:09.084Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"5ce5635f-7b17-4b6d-b493-ed61e81f7fee","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Forms Screen - 004 - switch negative test","test_name":"004 - switch negative test","test_code":"async () => {\r\n        await HomePage.openForms();\r\n        await expect(FormsPage.inputField).toBeDisplayed();\r\n\r\n        // Get initial state of the switch\r\n        const initialState = await FormsPage.switchState;\r\n\r\n        // Toggle the switch and verify the state has changed\r\n        await FormsPage.tapSwitch();\r\n        await expect(await FormsPage.switchState).not.toEqual(initialState);\r\n\r\n        // Toggle the switch back and verify it returns to the initial state\r\n        await FormsPage.tapSwitch();\r\n        await expect(await FormsPage.switchState).toEqual(initialState);\r\n    }","test_file_path":"e2e\\specs\\FormsScreen.test.js","test_location":"e2e\\specs\\FormsScreen.test.js","test_scope":"Forms Screen - 004 - switch negative test","test_scopes":["Forms Screen"],"test_started_at":"2025-12-02T23:02:05.517Z","automate_session_name":"Forms Screen - 004 - switch negative test","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2025-12-02T23:02:09.082Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2025-12-02T23:02:09.085Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '5ce5635f-7b17-4b6d-b493-ed61e81f7fee',
+    name: '004 - switch negative test',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '        await HomePage.openForms();\r\n' +
+        '        await expect(FormsPage.inputField).toBeDisplayed();\r\n' +
+        '\r\n' +
+        '        // Get initial state of the switch\r\n' +
+        '        const initialState = await FormsPage.switchState;\r\n' +
+        '\r\n' +
+        '        // Toggle the switch and verify the state has changed\r\n' +
+        '        await FormsPage.tapSwitch();\r\n' +
+        '        await expect(await FormsPage.switchState).not.toEqual(initialState);\r\n' +
+        '\r\n' +
+        '        // Toggle the switch back and verify it returns to the initial state\r\n' +
+        '        await FormsPage.tapSwitch();\r\n' +
+        '        await expect(await FormsPage.switchState).toEqual(initialState);\r\n' +
+        '    }'
+    },
+    identifier: '004 - switch negative test',
+    scope: 'Forms Screen - 004 - switch negative test',
+    scopes: [ 'Forms Screen' ],
+    file_name: 'e2e\\specs\\FormsScreen.test.js',
+    vc_filepath: 'e2e\\specs\\FormsScreen.test.js',
+    location: 'e2e\\specs\\FormsScreen.test.js',
+    result: 'passed',
+    duration_in_ms: 3565,
+    started_at: '2025-12-02T23:02:05.517Z',
+    finished_at: '2025-12-02T23:02:09.082Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:02:10.732Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"93fd4ce1-5924-493c-83e7-01f02c37cde3","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Login Screen - 003 - should accept username and password within allowed length range","test_name":"003 - should accept username and password within allowed length range","test_code":"async () => {\r\n\r\n        // Navigate to login\r\n        if (!(await LoginPage.isLoginScreenDisplayed())) {\r\n            throw new Error('Login screen did NOT load correctly');\r\n        }\r\n\r\n        // Generate and enter random credentials\r\n        const { username, password } = await LoginPage.enterRandomCredentials();\r\n\r\n        console.log('Generated username:', username);\r\n        console.log('Generated password:', password);\r\n\r\n        await LoginPage.loginBtn.click();\r\n\r\n        // Verify fields are not empty\r\n        if ((await LoginPage.emailInput.getText()) === '') {\r\n            throw new Error('Username field is empty after entering random text');\r\n        }\r\n        if ((await LoginPage.passwordInput.getText()) === '') {\r\n            throw new Error('Password field is empty after entering random text');\r\n        }\r\n\r\n        // Verify lengths are within allowed ranges\r\n        if (username.length < 8 || username.length > 60) {\r\n            throw new Error(`Username length ${username.length} is out of allowed range`);\r\n        }\r\n        if (password.length < 8 || password.length > 50) {\r\n            throw new Error(`Password length ${password.length} is out of allowed range`);\r\n        }\r\n\r\n        // Wait for and verify success popup\r\n        const messageText = await LoginPage.waitForSuccessPopup();\r\n        if (messageText !== 'You are logged in!') {\r\n            throw new Error(`Success popup did NOT appear or text is incorrect: ${messageText}`);\r\n        }\r\n\r\n        // Close popup\r\n        await LoginPage.closeSuccessPopup();\r\n    }","test_file_path":"e2e\\specs\\LoginScreen.test.js","test_location":"e2e\\specs\\LoginScreen.test.js","test_scope":"Login Screen - 003 - should accept username and password within allowed length range","test_scopes":["Login Screen"],"test_started_at":"2025-12-02T23:02:03.598Z","automate_session_name":"Login Screen - 003 - should accept username and password within allowed length range","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2025-12-02T23:02:10.730Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2025-12-02T23:02:10.733Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+    name: '003 - should accept username and password within allowed length range',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\r\n' +
+        '\r\n' +
+        '        // Navigate to login\r\n' +
+        '        if (!(await LoginPage.isLoginScreenDisplayed())) {\r\n' +
+        "            throw new Error('Login screen did NOT load correctly');\r\n" +
+        '        }\r\n' +
+        '\r\n' +
+        '        // Generate and enter random credentials\r\n' +
+        '        const { username, password } = await LoginPage.enterRandomCredentials();\r\n' +
+        '\r\n' +
+        "        console.log('Generated username:', username);\r\n" +
+        "        console.log('Generated password:', password);\r\n" +
+        '\r\n' +
+        '        await LoginPage.loginBtn.click();\r\n' +
+        '\r\n' +
+        '        // Verify fields are not empty\r\n' +
+        "        if ((await LoginPage.emailInput.getText()) === '') {\r\n" +
+        "            throw new Error('Username field is empty after entering random text');\r\n" +
+        '        }\r\n' +
+        "        if ((await LoginPage.passwordInput.getText()) === '') {\r\n" +
+        "            throw new Error('Password field is empty after entering random text');\r\n" +
+        '        }\r\n' +
+        '\r\n' +
+        '        // Verify lengths are within allowed ranges\r\n' +
+        '        if (username.length < 8 || username.length > 60) {\r\n' +
+        '            throw new Error(`Username length ${username.length} is out of allowed range`);\r\n' +
+        '        }\r\n' +
+        '        if (password.length < 8 || password.length > 50) {\r\n' +
+        '            throw new Error(`Password length ${password.length} is out of allowed range`);\r\n' +
+        '        }\r\n' +
+        '\r\n' +
+        '        // Wait for and verify success popup\r\n' +
+        '        const messageText = await LoginPage.waitForSuccessPopup();\r\n' +
+        "        if (messageText !== 'You are logged in!') {\r\n" +
+        '            throw new Error(`Success popup did NOT appear or text is incorrect: ${messageText}`);\r\n' +
+        '        }\r\n' +
+        '\r\n' +
+        '        // Close popup\r\n' +
+        '        await LoginPage.closeSuccessPopup();\r\n' +
+        '    }'
+    },
+    identifier: '003 - should accept username and password within allowed length range',
+    scope: 'Login Screen - 003 - should accept username and password within allowed length range',
+    scopes: [ 'Login Screen' ],
+    file_name: 'e2e\\specs\\LoginScreen.test.js',
+    vc_filepath: 'e2e\\specs\\LoginScreen.test.js',
+    location: 'e2e\\specs\\LoginScreen.test.js',
+    result: 'passed',
+    duration_in_ms: 7132,
+    started_at: '2025-12-02T23:02:03.598Z',
+    finished_at: '2025-12-02T23:02:10.730Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 9868:0
+2025-12-02T23:02:11.004Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '5ce5635f-7b17-4b6d-b493-ed61e81f7fee',
+      name: '004 - switch negative test',
+      body: [Object],
+      identifier: '004 - switch negative test',
+      scope: 'Forms Screen - 004 - switch negative test',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\FormsScreen.test.js',
+      vc_filepath: 'e2e\\specs\\FormsScreen.test.js',
+      location: 'e2e\\specs\\FormsScreen.test.js',
+      result: 'passed',
+      duration_in_ms: 3565,
+      started_at: '2025-12-02T23:02:05.517Z',
+      finished_at: '2025-12-02T23:02:09.082Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+      name: '003 - should accept username and password within allowed length range',
+      body: [Object],
+      identifier: '003 - should accept username and password within allowed length range',
+      scope: 'Login Screen - 003 - should accept username and password within allowed length range',
+      scopes: [Array],
+      file_name: 'e2e\\specs\\LoginScreen.test.js',
+      vc_filepath: 'e2e\\specs\\LoginScreen.test.js',
+      location: 'e2e\\specs\\LoginScreen.test.js',
+      result: 'passed',
+      duration_in_ms: 7132,
+      started_at: '2025-12-02T23:02:03.598Z',
+      finished_at: '2025-12-02T23:02:10.730Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 9868:0
+2025-12-02T23:02:11.005Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-02T23:02:13.163Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.20.1',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-02T23:02:13.130Z',
+      uuid: '5ce5635f-7b17-4b6d-b493-ed61e81f7fee',
+      kind: 'TEST_LOG',
+      message: '"could not handle step stop message: no step is running"',
+      level: 'ERROR',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: '5ce5635f-7b17-4b6d-b493-ed61e81f7fee'
+    }
+  ]
+} to 9868:0
+2025-12-02T23:02:14.204Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.20.1',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-02T23:02:14.177Z',
+      uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3',
+      kind: 'TEST_LOG',
+      message: '"could not handle step stop message: no step is running"',
+      level: 'ERROR',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: '93fd4ce1-5924-493c-83e7-01f02c37cde3'
+    }
+  ]
+} to 9868:0
+2025-12-02T23:02:15.014Z CLI info [testhub:request-queue-handler]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Processing batch event [
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 9868:0
+2025-12-02T23:02:15.015Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-02T23:02:15.719Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-12-02T23:02:16.183Z CLI info [testhub:module]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  stopBuild: xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g request={"finished_at":"2025-12-02T23:02:14.301Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-12-02T23:02:16.184Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-02T23:02:16.185Z CLI info [TEST REPORTING AND ANALYTICS:module]  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  Visit https://automation.browserstack.com/builds/xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g to view build report, insights, and many more debugging information all at one place!
+2025-12-02T23:02:16.403Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-02T23:02:16.894Z CLI info  [sana_SMxl6V]  [xwamglfs0aumg2oaomng6hgzl1a86acm3em7l85g]  [5f83719a-150c-4a1b-af1c-8f9986582aab]  [PRODUCTION] Making POST request to https://eds.browserstack.com
