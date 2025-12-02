@@ -34,5 +34,7 @@ exports.config = {
     mochaOpts: {
       ui: 'bdd',
       timeout: 20000
-    }
+    },
+    specFileRetries: 0,
+    bail: 0
 };
