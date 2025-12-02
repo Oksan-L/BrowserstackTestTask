@@ -26,14 +26,14 @@ jobs:
           BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
           BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
           BROWSERSTACK_APP_ID: ${{ secrets.BROWSERSTACK_APP_ID }}
-        run: npx wdio run wdio.pixel9.conf.cjs
+        run: npx wdio run wdio.pixel9.conf.cjs --bail 0
 
       - name: Run tests on Pixel 7
         env:
           BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
           BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
           BROWSERSTACK_APP_ID: ${{ secrets.BROWSERSTACK_APP_ID }}
-        run: npx wdio run wdio.pixel7.conf.cjs
+        run: npx wdio run wdio.pixel7.conf.cjs --bail 0
 
       - name: Generate Allure Report
         run: |
