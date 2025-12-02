@@ -32,7 +32,7 @@ describe('Forms Screen', () => {
         await expect(FormsPage.popup).not.toBeDisplayed();
     });
 
-    it('004 - Switch negative test', async () => {
+    it('004 - switch negative test', async () => {
         await HomePage.openForms();
         await expect(FormsPage.inputField).toBeDisplayed();
 

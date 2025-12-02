@@ -24,7 +24,7 @@
 import SwipePage from '../pages/swipe.page.js';
 
 describe('Swipe Screen', () => {
-    it('005 - Swipe gesture verification via carousel buttons', async () => {
+    it('005 - swipe gesture verification via carousel buttons', async () => {
         const swipeButton = await $('~Swipe');
         await swipeButton.waitForDisplayed({ timeout: 5000 });
         await swipeButton.click();

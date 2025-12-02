@@ -16,22 +16,6 @@ exports.config = {
       './e2e/specs/**.test.js'
     ],
     exclude: [],
-  
-    // capabilities: [{
-    //   platformName: 'Android',
-    //   project: "First Webdriverio Android Project",
-    //   build: 'Webdriverio Android',
-    //   name: 'first_test',
-    //   // device: 'Pixel 3',
-    //   'appium:deviceName': 'emulator-5554',
-    //   'appium:platformVersion': '9.0',
-    //   //'appium:app': process.env.BROWSERSTACK_APP_ID,
-    //   'appium:app': join(process.cwd(), 'Android-NativeDemoApp-0.4.0.apk'),
-    //   'appium:automationName': 'UiAutomator2',
-    //   'browserstack.debug': true,
-    //   'appium:fullReset': true,
-    //   'appium:noReset': false
-    // }],
 
     capabilities: [{
       platformName: "Android",
