@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10622","001 - should fill form, select dropdown, toggle switch and submit","Forms Screen","Wed Dec 03 00:01:41 UTC 2025","passed","Wed Dec 03 00:01:52 UTC 2025","","","",""
+"","10883","005 - swipe gesture verification via carousel buttons","Swipe Screen","Wed Dec 03 00:01:44 UTC 2025","passed","Wed Dec 03 00:01:55 UTC 2025","","","",""
+"","2518","004 - switch negative test","Forms Screen","Wed Dec 03 00:01:52 UTC 2025","passed","Wed Dec 03 00:01:54 UTC 2025","","","",""
+"","4930","002 - should show warnings when username and password fields are empty","Login Screen","Wed Dec 03 00:01:42 UTC 2025","passed","Wed Dec 03 00:01:47 UTC 2025","","","",""
+"","6122","003 - should accept username and password within allowed length range","Login Screen","Wed Dec 03 00:01:47 UTC 2025","passed","Wed Dec 03 00:01:53 UTC 2025","","","",""
